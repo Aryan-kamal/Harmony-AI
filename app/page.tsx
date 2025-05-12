@@ -18,10 +18,6 @@ export default async function Page() {
 			<SignedIn>
 				<Chat accessToken={accessToken} />
 			</SignedIn>
-			<SignedOut>
-				<SignInButton forceRedirectUrl={"/"} />
-				<SignUpButton forceRedirectUrl={"/"} />
-			</SignedOut>
 		</div>
 	);
 }
